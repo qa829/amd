@@ -5,6 +5,7 @@ env:
 - BUILD=1
 - BUILD=2
 - BUILD=3
+- BUILD=4
 
 install: skip
 
