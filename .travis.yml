@@ -27,3 +27,5 @@ script:
 - echo "==> Docker"
 - sudo docker info
 - sudo docker run hello-world
+- __dots() { while true ; do echo -en . ; sleep 30 ; done } ; __dots &
+- sleep 60000
